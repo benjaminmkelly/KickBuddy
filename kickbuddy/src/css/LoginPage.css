@@ -1,0 +1,48 @@
+.login-container-login {
+    background-color: #AAAAAA;
+    width: 75%;
+    border: solid;
+    margin: auto;
+    padding: 2em 2em 2em 2em;
+    border-radius: 12px;
+}
+
+.login-container-signup {
+    background-color: #AAAAAA;
+    width: 75%;
+    border: solid;
+    margin: auto;
+    padding: 2em 2em 2em 2em;
+    border-radius: 12px;
+}
+
+/* Login Form components */
+.login-username-field {
+    margin: 5px 0 5px 0;
+}
+.login-password-field {
+    margin: 5px 0 5px 0;
+}
+.login-signin-button {
+    margin: 5px 0 5px 0;
+}
+/* End of Login Form components */
+
+
+/* Sign Up Form components */
+.signup-name-field {
+    margin: 5px 0 5px 0;
+}
+.signup-username-field {
+    margin: 5px 0 5px 0;
+}
+.signup-password-field {
+    margin: 5px 0 5px 0;
+}
+.signup-password-field2 {
+    margin: 5px 0 5px 0;
+}
+.signup-signup-button {
+    margin: 5px 0 5px 0;
+}
+/* End of Sign Up Form components */

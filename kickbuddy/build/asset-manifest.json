@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/kickbuddy/app/static/css/main.677ab42d.css",
+    "main.js": "/kickbuddy/app/static/js/main.7ca93826.js",
+    "static/js/787.7413c734.chunk.js": "/kickbuddy/app/static/js/787.7413c734.chunk.js",
+    "static/media/football.png": "/kickbuddy/app/static/media/football.37f8b70647c33854559a.png",
+    "static/media/background-change-icon.png": "/kickbuddy/app/static/media/background-change-icon.c714d403df865efc034c.png",
+    "index.html": "/kickbuddy/app/index.html",
+    "main.677ab42d.css.map": "/kickbuddy/app/static/css/main.677ab42d.css.map",
+    "main.7ca93826.js.map": "/kickbuddy/app/static/js/main.7ca93826.js.map",
+    "787.7413c734.chunk.js.map": "/kickbuddy/app/static/js/787.7413c734.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.677ab42d.css",
+    "static/js/main.7ca93826.js"
+  ]
+}

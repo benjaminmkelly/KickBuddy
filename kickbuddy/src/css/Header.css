@@ -1,0 +1,30 @@
+.title {
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+  }
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.football-logo {
+    height: 2em;
+    width: auto;
+    vertical-align: middle;
+}
+
+.home-icon {
+    height: 1.5em;
+    margin: auto;
+    display: block;
+}
+  
+.home-icon-button {
+    width: 40px;
+    height: 40px;
+    background-color: #AAAAAA;
+    border-radius: 12px;
+}
+

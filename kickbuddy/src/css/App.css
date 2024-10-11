@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  background-image: url('../img/background-pitch.png');
+  background-size: cover;
+  background-attachment: fixed;
+  width: auto;
+  min-height: 641px;
+  height: 100vh;
+  overflow: auto;
+}
+
+img {
+  display: block;
+}
+

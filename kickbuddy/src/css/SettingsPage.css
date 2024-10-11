@@ -1,0 +1,78 @@
+    .settings-container {
+        background-color: #AAAAAA;
+        width: 75%;
+        border: solid;
+        margin: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        border-radius: 12px;
+    }
+
+    .menu-item span {
+        /* background-color: #7f7f7f; */
+        text-align: left;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-item button {
+        background-color: #AAAAAA;
+        border-radius: 5px;
+        height: 2em;
+        width: 2em;
+    }
+
+    .dark-mode-switch {
+        float: right;
+        align-self: flex-end;
+        height: auto;
+        width: auto;
+    }
+
+    .background-button {
+        float: right;   
+        height: auto;
+        width: auto;
+    }
+
+    .background-change-icon {
+    height: 1em;
+    justify-content: center;
+    }
+
+    .bug-button {
+        float: right;
+        height: 1.2em;
+        width: 1.4em;
+    }
+
+    .menu-item {
+        display: flex;
+        background-color: #7f7f7f;
+        padding: 0.5em 1em;
+        justify-content: space-between;
+        margin: 1em auto;
+        height: 3em;
+    }
+
+    .settings-page-container h2 {
+        font-family: Helvetica, sans-serif;
+    }
+
+    .report-bug-container {
+        background-color: #AAAAAA;
+        padding: 1em;
+        border-radius: 12px;
+    }
+    .report-bug-container button {
+        justify-content: center;
+        border-radius: 12px;
+    }
+
+    #report-bug-text-input {
+        height: 5em;
+        width: 100%;
+        border-radius: 12px;
+        vertical-align: baseline;
+        line-height: normal;
+    }

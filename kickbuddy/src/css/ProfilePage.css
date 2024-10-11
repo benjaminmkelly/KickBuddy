@@ -1,0 +1,238 @@
+.profile-stats {
+    background-color: #AAAAAA;
+    width: 75%;
+    border: solid;
+    margin: 1em auto auto auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 12px;
+}
+
+.profile-page-container h2 {
+    font-family: Helvetica, sans-serif;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em .5em;
+    grid-auto-flow: row;
+    grid-template-areas: 
+        "wellbeing-button fitness-button"
+        "match-history-button match-history-button";
+    height: 20vh;
+    width: 100%;
+    padding: 2px 2em 12em 2em;
+}
+
+.wellbeing-button { grid-area: wellbeing-button; }
+.fitness-button { grid-area: fitness-button; }
+.match-history-button { grid-area: match-history-button; }
+
+.grid-container button, .match-history-container button {
+    height: 75px;
+    width: 90%;
+    border: solid;
+    font-family: Helvetica, sans-serif;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background-color: #AAAAAA;
+}
+
+.match-history-container button {
+    height: 75px;
+    width: 90%;
+    border: solid;
+    font-family: Helvetica, sans-serif;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background-color: #AAAAAA;
+    margin: 0 auto 1em auto;
+    display: block;
+}
+
+.wellbeing-tips-container {
+
+}
+.wellbeing-tips-container button {
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.tips-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    line-height: 1.5;
+    background-color: #AAAAAA;
+    border-radius: 12px;
+}
+.tips-container span {
+    padding: 10px 10px;
+}
+
+/* Wellbeing CSS */
+.wellbeing-rating-container {
+    height: 100%;
+    background: #AAAAAA;
+    padding: 10px;
+    border-radius: 12px;
+}
+.wellbeing-rating-item {
+    min-height: 2.75em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: solid 1px black;
+    background-color: white;
+}
+.wellbeing-rating-item span {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#prematch-wellbeing #postmatch-wellbeing {
+    float: right;
+    height: 2em;
+    width: 2em;
+}
+
+.wellbeing-button-container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 1em;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "prematch-button postmatch-button";
+}
+.wellbeing-button-container button {
+    border-radius: 12px;
+} 
+.prematch-button { grid-area: prematch-button; }
+.postmatch-button { grid-area: postmatch-button; }
+
+.wellbeing-input-container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 1em;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "prematch-input postmatch-input";
+}
+.wellbeing-input-container input {
+    border-radius: 12px;
+    width: 2em;
+    margin: 0 auto .5em auto;
+} 
+.prematch-input { grid-area: prematch-input; }
+.postmatch-input { grid-area: postmatch-input; }
+
+.wellbeing-input-text-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 1em;
+    grid-auto-flow: row;
+    grid-template-areas: 
+        "prematch-text postmatch-text";
+}
+
+/* Fitness CSS */
+.fitness-rating-container {
+    height: 100%;
+    background: #AAAAAA;
+    padding: 10px;
+    border-radius: 12px;
+}
+.fitness-rating-item {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: solid 1px black;
+    background-color: white;
+}
+.fitness-rating-item span {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#prematch-fitness #postmatch-fitness {
+    float: right;
+    height: 2em;
+    width: 2em;
+}
+
+.fitness-button-container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 1em;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "prematch-button postmatch-button";
+}
+.fitness-button-container button {
+    border-radius: 12px;
+} 
+.prematch-button { grid-area: prematch-button; }
+.postmatch-button { grid-area: postmatch-button; }
+
+.fitness-input-container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 1em;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "prematch-input postmatch-input";
+}
+.fitness-input-container input {
+    border-radius: 12px;
+    width: 2em;
+    margin: 0 auto .5em auto;
+} 
+.prematch-input { grid-area: prematch-input; }
+.postmatch-input { grid-area: postmatch-input; }
+
+.fitness-input-text-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 1em;
+    grid-auto-flow: row;
+    grid-template-areas: 
+        "prematch-text postmatch-text";
+}
+.prematch-text { 
+    grid-area: prematch-text;
+}
+.postmatch-text { 
+    grid-area: postmatch-text;
+}
+
+.input-stats-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.input-stats-form button {
+    border-radius: 12px;
+}
+.input-stats-form input {
+    width: 65vw;
+}

@@ -1,0 +1,16 @@
+
+.matchContents {
+    /* This can be changed later */
+    border: solid;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2em;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1em;
+    background-color: #AAAAAA;
+    border-radius: 12px;
+}
+.matchContents button {
+    border-radius: 12px;
+}

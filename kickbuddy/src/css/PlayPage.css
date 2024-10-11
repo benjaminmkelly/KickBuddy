@@ -1,0 +1,50 @@
+.heading-container span {
+    font-size: 12px;
+}
+
+.heading-container p {
+    background-color: #AAAAAA;
+    padding: 1em;
+    margin: .5em .5em 2em .5em;
+    border-radius: 12px;
+    border: solid 2px black;
+}
+
+.post-match-button, .more-matches-button {
+    height: 75px;
+    width: 75%;
+    border: solid;
+    font-family: Helvetica, sans-serif;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background-color: #AAAAAA;
+    margin-bottom: 1em;
+}
+
+.upload-match-form {
+    display: flex;
+    flex-direction: column;
+}
+.upload-match-form button {
+    border-radius: 12px;
+}
+
+.join-match-container {
+    background-color: #AAAAAA;
+    border-radius: 12px;
+    padding: 10px 10px;
+}
+.join-match-container button {
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+}
+.join-match-container span {
+   
+}
+
+.info-container p {
+    font-size: 16px;
+}
